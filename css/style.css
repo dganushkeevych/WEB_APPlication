@@ -11,7 +11,7 @@ body{
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.2em;
     background: rgba(0, 0, 0, 0.6) !important;
     padding: 20px 0;
 }
@@ -28,30 +28,30 @@ body{
 
 .heading-content{
     position: absolute;
-    top: 50%;
+    top: 40% !important;
     width: 100%;
     max-width: 100%;
 }
 
 .heading-content h5{
-    font-size: 4am;
+    font-size: 3em;
     font-weight: 300;
-    color: #fff;
+    color: #000;
     font-family: monospace;
 }
 
 .heading-content h1{
-    font-size: 5am;
+    font-size: 4em;
     font-weight: bolder;
-    color: #fff;
+    color: #000;
     font-family: 'Montserrat', sans-serif;
 }
 
 .heading-content p{
-    font-size: 1am;
+    font-size: 1em;
     text-transform: uppercase;
     font-weight: lighter;
-    color: #ccc;
+    color: #000;
     word-spacing: 5px;
     letter-spacing: 2px;
 }
@@ -129,9 +129,66 @@ body{
 }
 
 
+/*----------=--- Media Query---------------*/
+@media screen and (max-width: 767px){
+/*---------------tablets---------------------*/
+    .navbar{
+        letter-spacing: 0.1em;
+        padding: 10px 0;
+    }
+
+    .heading-content h5{
+        font-size: 2em;
+    }
+    
+    .heading-content h1{
+        font-size: 2em;
+    }
+    
+    .heading-content p{
+        font-size: 0.9em;
+    }
+
+    .heading-content{
+        position: absolute;
+        top: 20% !important;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #contact .post-heading{
+        font-size: 2em;
+    }
 
 
+}
 
+@media screen and (max-width: 479px){
+    /*---------------smartphones---------------------*/
+    .navbar{
+        letter-spacing: 0.1em;
+        padding: 7px 0;
+    }
+
+    .heading-content h5{
+        font-size: 1em;
+    }
+    
+    .heading-content h1{
+        font-size: 1em;
+    }
+    
+    .heading-content p{
+        font-size: 0.7em;
+    }
+
+    .heading-content{
+        position: absolute;
+        top: 12% !important;
+        width: 100%;
+        max-width: 100%;
+    }
+}
 
 
 

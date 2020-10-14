@@ -8,27 +8,28 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
-  <body>
-	<!----------Navidation------------>
+  <body data-spy="scroll" data-target="#navbarResponsive">
+	<!----------Navigation------------>
     <div id="home">
       	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 			<span class="navbar-toggler-icon"></span>
 		  </button>
-		  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+		  <div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav mx-auto">
-			  <li class="nav-item active">
-				<a class="nav-link" href="#">Home </a>
+			  <li class="nav-item">
+				<a class="nav-link" href="#home">Home </a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#">About</a>
+				<a class="nav-link" href="#about">About</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#">Service</a>
+				<a class="nav-link" href="#service">Service</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#">Contact</a>
+				<a class="nav-link" href="#contact">Contact</a>
 			  </li>
 			</ul>
 		  </div>
@@ -53,7 +54,7 @@
 			<hr class="w-50 mx-auto pb-5">
 		</div>
 		<div class="row">
-			<div class="col-lg-6 col-md-6 col-12">
+			<div class="col-lg-6 col-md-6 col-12 pb-4">
 				<img src="back2.JPG" class="img-fluid">
 			</div>
 
@@ -160,20 +161,20 @@
 
 	<!----------Newsletter Start------------>
 
-	<section class="sec1 container-fluid mt-5 pb-5">
-		<h2 class="mt-5">Newsletter</h2>
-		<p>Subscribe to my newsletter to receive my latest news.</p>
-		<form class="form-inline mt-2" action="/action_page.php">
-			  <input type="email" class="form-control" placeholder="Enter Email" id="email">
-			<button type="submit" class="btn btn-dark ml-2">Subscribe</button>
-		  </form>
-	</section>
+		<section class="sec1 container-fluid mt-5 pb-5">
+			<h2 class="mt-5">Newsletter</h2>
+			<p>Subscribe to my newsletter to receive my latest news.</p>
+			<form class="form-inline mt-2" action="/action_page.php">
+				<input type="email" class="form-control" placeholder="Enter Email" id="email">
+				<button type="submit" class="btn btn-dark ml-2">Subscribe</button>
+			</form>
+		</section>
 
 	<!----------Newsletter End------------>
 
 	<!----------Contact------------>
 
-	<div id="contact" class="w-50 mx-auto mt-3 mb-5">
+	<div id="contact" class="w-50 mx-auto mt-5 mb-5">
 		<div class="post-heading text-center">
 			<h3 class="display-4 font-weight-bold">Contact Us</h3>
 			<hr class="w-50 mx-auto pb-5">
@@ -196,9 +197,157 @@
 
 	</div>
 
-	<div id="contact" class="">
 
+
+	<!------------Footer-------------------->
+<!-- Footer -->
+	<div class="container-fluid">
+		<footer class="page-footer font-small blue-grey lighten-5">
+
+			<div style="background-color: #21d192;">
+			<div class="container">
+		
+				<!-- Grid row-->
+				<div class="row py-4 d-flex align-items-center">
+		
+				<!-- Grid column -->
+				<div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+					<h6 class="mb-0">Get connected with us on social networks!</h6>
+				</div>
+				<!-- Grid column -->
+		
+				<!-- Grid column -->
+				<div class="col-md-6 col-lg-7 text-center text-md-right">
+		
+					<!-- Facebook -->
+					<a class="fb-ic" href="https://www.facebook.com/diana.hanushkevych.1">
+					<i class="fab fa-facebook-f white-text mr-4"> </i>
+					</a>
+					<!-- Twitter -->
+					<a class="tw-ic" href="https://twitter.com/">
+					<i class="fab fa-twitter white-text mr-4"> </i>
+					</a>
+					<!-- Google +-->
+					<a class="gplus-ic" href="https://github.com/dganushkeevych">
+					<i class="fab fa-github white-text mr-4"> </i>
+					</a>
+					<!--Linkedin -->
+					<a class="li-ic" href="https://www.linkedin.com/in/diana-hanushkevych-87aa07194/">
+					<i class="fab fa-linkedin-in white-text mr-4"> </i>
+					</a>
+					<!--Instagram-->
+					<a class="ins-ic" href="https://www.instagram.com/ganushkevychka/">
+					<i class="fab fa-instagram white-text"> </i>
+					</a>
+		
+				</div>
+				<!-- Grid column -->
+		
+				</div>
+				<!-- Grid row-->
+		
+			</div>
+			</div>
+		
+			<!-- Footer Links -->
+			<div class="container text-center text-md-left mt-5">
+		
+			<!-- Grid row -->
+			<div class="row mt-3 dark-grey-text">
+		
+				<!-- Grid column -->
+				<div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+		
+				<!-- Content -->
+				<h6 class="text-uppercase font-weight-bold">Company name</h6>
+				<hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+				<p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+					consectetur
+					adipisicing elit.</p>
+		
+				</div>
+				<!-- Grid column -->
+		
+				<!-- Grid column -->
+				<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+		
+				<!-- Links -->
+				<h6 class="text-uppercase font-weight-bold">Products</h6>
+				<hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+				<p>
+					<a class="dark-grey-text" href="#!">MDBootstrap</a>
+				</p>
+				<p>
+					<a class="dark-grey-text" href="#!">MDWordPress</a>
+				</p>
+				<p>
+					<a class="dark-grey-text" href="#!">BrandFlow</a>
+				</p>
+				<p>
+					<a class="dark-grey-text" href="#!">Bootstrap Angular</a>
+				</p>
+		
+				</div>
+				<!-- Grid column -->
+		
+				<!-- Grid column -->
+				<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+		
+				<!-- Links -->
+				<h6 class="text-uppercase font-weight-bold">Useful links</h6>
+				<hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+				<p>
+					<a class="dark-grey-text" href="#!">Your Account</a>
+				</p>
+				<p>
+					<a class="dark-grey-text" href="#!">Become an Affiliate</a>
+				</p>
+				<p>
+					<a class="dark-grey-text" href="#!">Shipping Rates</a>
+				</p>
+				<p>
+					<a class="dark-grey-text" href="#!">Help</a>
+				</p>
+		
+				</div>
+				<!-- Grid column -->
+		
+				<!-- Grid column -->
+				<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+		
+				<!-- Links -->
+				<h6 class="text-uppercase font-weight-bold">Contact</h6>
+				<hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+				<p>
+					<i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+				<p>
+					<i class="fas fa-envelope mr-3"></i> info@example.com</p>
+				<p>
+					<i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+				<p>
+					<i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+		
+				</div>
+				<!-- Grid column -->
+		
+			</div>
+			<!-- Grid row -->
+		
+			</div>
+			<!-- Footer Links -->
+		
+			<!-- Copyright -->
+			<div class="footer-copyright text-center text-black-50 py-3">© 2020 Copyright:
+			<a class="dark-grey-text" href="https://mdbootstrap.com/">Diana Hanushkevych</a>
+			</div>
+			<!-- Copyright -->
+		
+		</footer>
 	</div>
+	<!-- Footer -->
+
+	<!-------------Footer End----------------------->
+
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
