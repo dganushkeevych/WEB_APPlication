@@ -28,7 +28,7 @@ body{
 
 .heading-content{
     position: absolute;
-    top: 40% !important;
+    top: 35% !important;
     width: 100%;
     max-width: 100%;
 }
@@ -81,33 +81,6 @@ body{
 }
 
 /*--------------------Service start--------------*/
-
-/*#service .button{
-    border: 2px solid transparent;
-    width: 40%;
-    padding: 15px 22px;
-    background: #000;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-#service .button a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 1em;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-#service .button:hover{
-    border: 2px solid #1ebba3;
-    cursor: pointer;
-
-
-}
-/*
-
-/*  Section 2  */
 
 .cover {
     width: 100%;
@@ -285,39 +258,6 @@ div.box{
   #btn:hover {
     background: transparent;
   }
-  
- /* #btn #circle {
-    width: 5px;
-    height: 5px;
-    background: transparent;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    overflow: hidden;
-    transition: 500ms;
-  }
-  
-  .noselect {
-    -webkit-touch-callout: none;
-      -webkit-user-select: none;
-       -khtml-user-select: none;
-         -moz-user-select: none;
-          -ms-user-select: none;
-              user-select: none;
-  }
-  
-  
-
-  
-  #btn:hover #circle {
-    height: 50px;
-    width: 150px;
-    left: 0;
-    border-radius: 0;
-    border-bottom: 2px solid #eee;
-  }
-  */
 
 
 /*----------=--- Media Query---------------*/
