@@ -85,7 +85,7 @@ body{
 .cover {
     width: 100%;
     height: 55vmin;
-    background: url("/happiness.JPG");
+    background: url("/images/happiness.JPG");
     background-position: -24rem -19rem;
     background-size: 150%;
     position: relative;
